@@ -1,0 +1,117 @@
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contêiner principal */
+#idContainer {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+/* Estilo para os rótulos */
+label {
+    font-size: 18px;
+    color: #333;
+    display: block;
+    margin: 15px 0 5px;
+}
+
+/* Estilo para os campos de texto */
+textarea, #OpenAiKey {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    resize: vertical;
+}
+
+/* Botão */
+button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    padding: 12px 25px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para as perguntas geradas */
+.formulario {
+    margin-top: 30px;
+}
+
+.pergunta {
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.pergunta label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.opcoes {
+    margin-top: 15px;
+}
+
+.opcoes div {
+    margin-bottom: 15px;
+}
+
+.opcoes input[type="radio"] {
+    margin-right: 12px;
+}
+
+/* Estilo para o botão de envio */
+h1.submit-button {
+    text-align: center;
+    font-size: 22px;
+    color: #333;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+h1.submit-button:hover {
+    color: #4CAF50;
+}
+
+/* Estilo para o resultado */
+#resultadoDiv {
+    margin-top: 35px;
+    padding: 25px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+#resultadoDiv p {
+    font-size: 18px;
+    color: #333;
+    margin: 15px 0;
+}
