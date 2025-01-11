@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gerador de perguntas</title>
+    <meta charset="UTF-8">
+    <script src="questions.js?v=12"></script>
+</head>
+<body>
+
+    <div id="idContainer">
+        <label>Resposta:</label><textarea id="txtOutput" rows="10" style="margin-top: 10px; width: 100%;" 
+         placeholder="Output"></textarea>
+
+        <label>Texto:</label><textarea id="chat-input" rows="5" cols="50"></textarea>      
+        <div>
+        <label>OpenAI key:</label><input type="text" id="OpenAiKey" />
+            <button type="button" onclick="IniciarProcesso()" id="btnSend">Enviar</button>
+        </div>
+        <div id="idText"></div>
+    </div>
+
+    <div id="resultadoDiv"></div>
+
+</body>
+</html>
